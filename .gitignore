@@ -1,23 +1,21 @@
-# Crie .gitignore (Node.js backend)
-echo "# dependencies
+# dependencies
 node_modules/
 
-# Logs
+# logs
 *.log
 npm-debug.log*
 
-# Environment variables
+# environment
 .env
-.env.local
-.env.*.local
+.env*.local
 
 # IDE
 .vscode/
 *.code-workspace
 
-# Build
+# build
 dist/
 build/
 
 # OS
-.DS_Store" > .gitignore
+.DS_Store
